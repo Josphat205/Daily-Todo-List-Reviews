@@ -1,7 +1,7 @@
 import 'lodash';
 import './style.css';
-import removeTodo from './ui.js';
 import Swal from 'sweetalert2/src/sweetalert2.js';
+import removeTodo from './ui.js';
 
 // list class
 
@@ -150,8 +150,8 @@ const clearChecked = () => {
     Swal.fire(
       'Good job!',
       'Items Deleted Successfully!',
-      'success'
-    )
+      'success',
+    );
   });
 };
 
